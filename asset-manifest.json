@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/military/static/css/main.41144930.css",
+    "main.js": "/military/static/js/main.480310af.js",
+    "static/js/787.1dbcc60a.chunk.js": "/military/static/js/787.1dbcc60a.chunk.js",
+    "static/media/T-90MS _ Main battle tank.mp4": "/military/static/media/T-90MS _ Main battle tank.f37874895334e463b7a0.mp4",
+    "static/media/ssstik.io_1676784443832.mp3": "/military/static/media/ssstik.io_1676784443832.01b26cdc0c879c20f54a.mp3",
+    "static/media/—Pngtree—volume icon_4490396.png": "/military/static/media/—Pngtree—volume icon_4490396.dd7d4960e7e7f30af1eb.png",
+    "static/media/logo.png": "/military/static/media/logo.44da1580bb984071a75f.png",
+    "index.html": "/military/index.html",
+    "main.41144930.css.map": "/military/static/css/main.41144930.css.map",
+    "main.480310af.js.map": "/military/static/js/main.480310af.js.map",
+    "787.1dbcc60a.chunk.js.map": "/military/static/js/787.1dbcc60a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41144930.css",
+    "static/js/main.480310af.js"
+  ]
+}
