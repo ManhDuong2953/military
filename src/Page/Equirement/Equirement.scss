@@ -1,0 +1,57 @@
+.title_equire {
+    position: relative;
+    color: white;
+    width: 1200px;
+    margin: 100px auto 0;
+    text-transform: uppercase;
+}
+
+.title_equire::after {
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    background-color: red;
+    content: "";
+    left: 0;
+    bottom: -10px;
+}
+
+.equire_container {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 50px 0;
+
+    .LazyLoad {
+        width: 25%;
+
+        .list_equire {
+            align-self: center;
+            height: 300px;
+            padding: 5px;
+
+            span {
+                border: 2px solid white;
+                height: 100%;
+                display: block;
+
+                .img-equire {
+                    width: 100%;
+                    object-fit: cover;
+                    height: 80%;
+                }
+
+                .name_equire {
+                    height: 20%;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+
+                }
+
+            }
+
+        }
+    }
+}

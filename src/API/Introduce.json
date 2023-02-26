@@ -1,0 +1,57 @@
+{
+  "data": [
+    {
+      "flexDirection": "row",
+      "name": "T90-MS",
+      "details": [
+        "Chiều dài: 9,53 mét",
+        "Chiều rộng: 3,78 mét",
+        "Chiều cao: 2,22 mét",
+        "Trọng lượng: 48 tấn",
+        "Độ dốc vượt tải: 30 độ",
+        "Sức đẩy: 1.130 mã lực",
+        "Vũ khí chính: Súng phóng tên lửa đạn đạo có thể xuyên phá bất kỳ loại giáp nào, độ chính xác cao, nòng súng dài 2A46M-5 đường kính 125mm.",
+        "Hệ thống định vị và nhắm mục tiêu: Hệ thống quan sát đa chức năng 1G46M, máy ảnh nhiệt và hệ thống định vị GPS/GLONASS.",
+        "Tốc độ tối đa: Trên đường bằng: 60 km/h, Trên địa hình đồi núi: 45 km/h",
+        "Khả năng bảo vệ: Có thể chịu được các loại vũ khí công nghệ cao như tên lửa chống tăng, tên lửa đạn đạo, tên lửa chống hạm, tên lửa chống máy bay, và các vũ khí có khả năng tấn công từ trên cao.",
+        "Giá: $4M - $5M",
+        "Xuất xứ: Liên bang Nga(🇷🇺)"
+      ],
+      "img": "https://media.vov.vn/sites/default/files/styles/large/public/2022-08/tt90m3-10135934.jpg"
+    },
+    {
+      "flexDirection": "row-reverse",
+      "name": "USS Gerald R. Ford (CVN-78)",
+      "details": [
+        "Trọng lượng lớn nhất khi hoàn toàn tải: 100.000 tấn",
+        "Chiều dài: 337 m",
+        "Chiều rộng: 78 m",
+        "Chiều cao: 76 m (tính cả cột khói)",
+        "Công suất động cơ: 260.000 mã lực",
+        "Tốc độ tối đa: hơn 30 mile /h (khoảng 56 km/h)",
+        "Khoảng cách hàng không có thể hoạt động: 700 mile (khoảng 1.300 km)",
+        "Số lượng phi cơ trên tàu: lên đến 90 phi cơ, bao gồm các loại F/A-18E/F Super Hornet, EA-18G Growler, E-2D Hawkeye và MH-60R/S Seahawk",
+        "Giá: $13B",
+        "Chi phí vận hành: $4B/năm",
+        "Xuất xứ: Hoa Kỳ(US)"
+      ],
+      "img": "https://znews-photo.zingcdn.me/w1200/Uploaded/rutmtz/2017_07_23/000_NE63Fmin.jpg"
+    },
+    {
+      "flexDirection": "row",
+      "name": "Tsar Bomba(RDS-220)",
+      "details": [
+        "Công suất: 50 megatons TNT (210 petajoules)",
+        "Khối lượng: 27 tấn",
+        "Kích thước: chiều dài 8 mét, đường kính 2 mét",
+        "Thiết kế: ba lớp, với lớp ngoài là chất chống nổ, lớp giữa là chất nhiên liệu hạt nhân và lớp trong cùng là chất xúc tác",
+        "Thời gian phát triển: khoảng 15 tháng",
+        "Tsar Bomba được thử nghiệm tại quần đảo Novaya Zemlya của Liên Xô vào ngày 30 tháng 10 năm 1961.",
+        "Quả bom đã phát nổ ở độ cao 4.000 mét, tạo ra một cột khói và bụi cao khoảng 64 km và đường kính 95 km. ",
+        "Cơn sóng xung kích của bom có thể đạt đến đường tròn bán kính 1.000 km, và cảm nhận được tại một khoảng cách hơn 1.000 km. ",
+        "Tuy nhiên, Tsar Bomba không được sử dụng trong hoạt động quân sự."
+      ],
+      "img": "https://cdnimg.vietnamplus.vn/uploaded/bojoka/2020_08_25/tsarbomba_1.jpg"
+    }
+  ]
+}

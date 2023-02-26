@@ -1,0 +1,130 @@
+.nav-main {
+    background-color: rgb(72, 72, 72, 0.5);
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    transition: all 1s ease;
+
+    .nav-container {
+        width: 1200px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .nav-left {
+            display: flex;
+            height: inherit;
+            align-items: center;
+
+            img.logo {
+                width: 50px;
+                filter: brightness(2);
+                margin-right: 10px;
+            }
+
+            .list-direct {
+                display: flex;
+
+                .list-direct--item {
+                    color: white;
+                    text-transform: uppercase;
+                    list-style: none;
+                    padding: 0 10px;
+                    line-height: 50px;
+                    cursor: pointer;
+
+                }
+
+                .list-direct--item:nth-child(2):hover {
+                    ul.sub-nav {
+                        display: block;
+                    }
+
+                    ul.sub-nav::after {
+                        content: "";
+                        height: 10px;
+                        width: 100%;
+                        background-color: red;
+                        position: absolute;
+
+                    }
+
+                }
+
+                .list-direct--item:nth-child(2) {
+                    position: relative;
+
+                    ul.sub-nav {
+                        background-color: rgb(72, 72, 72);
+                        position: absolute;
+                        top: 48px;
+                        left: 0;
+                        display: none;
+
+                        a {
+                            text-decoration: none;
+                            color: #fff;
+
+                            li.sub_nav-item {
+                                width: 200px;
+                                max-width: 200px;
+                                padding: 10px;
+                                list-style: none;
+                                text-transform: capitalize;
+                            }
+
+                            li.sub_nav-item:hover {
+                                text-align: center;
+                                color: rgb(255, 0, 0);
+                                background-color: rgb(0, 0, 0, 0.5);
+                            }
+                        }
+                    }
+                }
+
+                .list-direct--item:hover {
+                    color: rgb(255, 188, 17);
+                }
+            }
+        }
+
+        .nav-right {
+            .search {
+                display: flex;
+                align-items: center;
+                position: relative;
+
+                .search-icon {
+                    position: absolute;
+                    left: 8px;
+                    font-size: 23px;
+                    color: white;
+                }
+
+                input.search-control {
+                    background-color: rgb(0 0 0 / 0%);
+                    border-radius: 20px;
+                    border: 1px solid rgb(255, 255, 255, 0.7);
+                    height: 32px;
+                    width: 225px;
+                    color: white;
+                    padding: 0 5px 0 30px;
+                    outline: none;
+                }
+
+                input.search-control::placeholder {
+                    color: rgba($color: #fff, $alpha: 0.5);
+                }
+
+                input.search-control:focus {
+                    border: 2px solid rgb(255, 255, 255, 1);
+                }
+
+            }
+        }
+    }
+
+}
